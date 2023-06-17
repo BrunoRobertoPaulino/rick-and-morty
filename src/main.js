@@ -24,7 +24,7 @@ var renderCharacters = function (data) {
                 <div id='visto-por-ultimo'>
                     <span>${element.name}</span>
                 </div>
-                <li><span>Visto por ultimo em: </span> ${element.location.name}</li>             
+                <li><span>Visto por último em: </span> ${element.location.name}</li>             
                 <li><span>Gênero: </span>${element.gender == 'Male'? 'Masculino' : 'Feminino'}</li>
                 <li><span>Aparições na 1º temporada: </span>${element.episode.filter((e) => 
                     {return parseInt(e.toString().split('/')[5]) <= 11}).length}</li>

@@ -1,2 +1,1 @@
-# testeVagaJunior
-A JavaScript project
+
